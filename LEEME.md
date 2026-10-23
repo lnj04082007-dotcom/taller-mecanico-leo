@@ -1,15 +1,9 @@
-# Mecánicos Leo — tres propuestas
+# Mecánicos Leo — Performance
 
-Abre `index.html` para comparar las tres versiones. Funcionan también abriendo directamente los archivos, sin instalar dependencias.
+La portada `index.html` muestra la versión Performance. Las versiones Cercano y Studio se han retirado. `performance.html` redirige a la portada para conservar enlaces anteriores.
 
-- **Performance:** grafito y lima, tipografía contundente y fotografía inmersiva.
-- **Cercano:** verdes suaves, tonos cálidos y titulares de estilo editorial.
-- **Studio:** neutros, composición dividida y estética sobria.
+Cabecera fija al desplazarse, con navegación desplegable en móvil, servicios y solicitud de cita simulada. El acceso WhatsApp queda pendiente del número del taller y no se activa con números inventados.
 
-Para servirlas localmente: `python3 -m http.server 8000 --directory /workspace/taller-mecanico-leo`.
+Desarrollo local: `python3 -m http.server 8000 --directory /workspace/taller-mecanico-leo`. Sin dependencias de compilación. GitHub Pages sirve la rama `main` desde la raíz.
 
-Incluyen navegación móvil, preguntas desplegables y formulario con validación de fecha y confirmación simulada. No hay backend, recogida de datos, contactos reales ni reservas. No se han inventado reseñas, precios, años de experiencia ni direcciones.
-
-La fotografía `assets/garage.jpg` es una escena conceptual generada con IA; no representa instalaciones o personal reales. La tipografía de Google Fonts es opcional y tiene fuentes de respaldo. El resto del sitio y la fotografía funcionan sin conexión.
-
-Antes de publicar para un negocio real: confirmar identidad, servicios, datos de contacto y contenido legal, e implementar el envío seguro y la gestión de citas.
+La fotografía es una escena conceptual generada con IA. El negocio es ficticio y el formulario no envía ni almacena datos ni reserva citas reales.
