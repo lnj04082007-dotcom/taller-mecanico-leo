@@ -5,3 +5,30 @@
 
 /* Navegación persistente de Performance */
 header{position:sticky;top:0;z-index:50;border-bottom:1px solid var(--line);box-shadow:0 4px 20px #1420170a}.whatsapp{background:transparent;border:1px solid var(--ink);color:var(--ink)}.whatsapp:disabled{cursor:not-allowed;opacity:.5;transform:none}.mainnav{gap:24px}.mainnav .button{white-space:nowrap}@media(max-width:900px) and (min-width:651px){.mainnav{gap:12px}.mainnav .button{padding:12px}.mainnav>a{font-size:11px}}@media(max-width:650px){.mainnav{max-height:calc(100dvh - 85px);overflow-y:auto}.mainnav>a{padding:7px 0}.mainnav .button{width:100%}}
+
+/* Cabecera siempre visible, contraste y ubicación */
+body.performance{padding-top:100px}
+.performance>header{position:fixed;inset:0 0 auto;max-width:1800px;margin-inline:auto;height:100px;background:#fff;z-index:100;box-shadow:0 5px 24px #0d19151a;border-bottom:1px solid #d8ded6}
+.performance .mainnav{gap:22px}.performance .mainnav>a:not(.button){white-space:nowrap}
+#servicios{background:#1c2822;color:#f8faf6;--line:#4c5a50;--muted:#c4cfc5}
+#servicios .eyebrow,#servicios .number{color:#d4f657}
+#servicios .services{border-top:0;gap:18px}
+#servicios .service,#servicios .service+.service{padding:28px;background:#29372e;border:1px solid #53624f;border-radius:8px}
+#servicios .service h3{color:#fff}
+#servicios .service p{color:#d0d9d1}
+#servicios .textlink{color:#d4f657;width:100%;border-bottom-color:#62705e}
+#taller{background:#e2e8d9;padding-top:90px;padding-bottom:90px}
+#taller .about-copy{background:#fff;padding:36px;border-left:4px solid #80964b;border-radius:0 8px 8px 0}
+#taller .about-copy>.eyebrow{color:#4a6037}
+#taller .about-copy>p:not(.eyebrow),#taller .promise p{color:#4c594f}
+#taller .promise>span{background:#e3edce;color:#30472d;border-radius:50%;width:26px;height:26px;display:grid;place-items:center;flex-shrink:0}
+.location{display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center;background:#edf0e7;border-top:1px solid #cdd6c3}
+.location-copy{max-width:370px;margin-top:25px;color:#4c594f;font-size:14px}
+.location-card{background:white;border:1px solid #bac8ae;border-radius:8px;padding:38px;box-shadow:0 12px 35px #20302008}
+.location-card .eyebrow{display:block;color:#4a6037}
+.location-card address{font-style:normal;font-size:24px;font-weight:600;line-height:1.5;letter-spacing:-.025em}
+.location-card address span{font-size:15px;font-weight:400;color:#4c594f;letter-spacing:0}
+.location-card .button{margin-top:28px}
+@media(max-width:1100px){.performance .mainnav{gap:13px}.performance .mainnav>a{font-size:11px}.performance .mainnav .button{padding-inline:14px}}
+@media(max-width:950px){.performance>header{height:85px}.performance{padding-top:85px!important}.performance .menu{display:block;background:transparent;color:var(--ink);font-size:12px}.performance .mainnav{display:none;position:absolute;top:85px;left:0;right:0;padding:25px 6%;background:#fff;box-shadow:0 15px 20px #0002;max-height:calc(100dvh - 85px);overflow-y:auto}.performance .mainnav.open{display:flex;align-items:stretch;flex-direction:column;gap:15px}.performance .mainnav>a:not(.button){padding:7px 0;font-size:14px}.performance .mainnav .button{width:100%}}
+@media(max-width:650px){#servicios .services{gap:14px}#servicios .service,#servicios .service+.service{padding:25px}#taller{padding-top:55px;padding-bottom:55px}#taller .about-copy{padding:26px 22px}.location{grid-template-columns:1fr;gap:30px}.location-card{padding:28px 22px}.location-card address{font-size:21px}.location-card .button{width:100%;gap:15px}}

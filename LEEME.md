@@ -7,3 +7,5 @@ Cabecera fija al desplazarse, con navegación desplegable en móvil, servicios y
 Desarrollo local: `python3 -m http.server 8000 --directory /workspace/taller-mecanico-leo`. Sin dependencias de compilación. GitHub Pages sirve la rama `main` desde la raíz.
 
 La fotografía es una escena conceptual generada con IA. El negocio es ficticio y el formulario no envía ni almacena datos ni reserva citas reales.
+
+La cabecera usa posición fija para permanecer visible durante todo el desplazamiento. Servicios presenta tarjetas sobre fondo oscuro; el taller usa fondo verde claro y un panel blanco de lectura. La sección «¿Dónde estamos?» enlaza Jaume Casanovas 187, El Prat de Llobregat con Google Maps.
